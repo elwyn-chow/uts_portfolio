@@ -10,7 +10,13 @@ However, I do have screen caps of my most recent project for UTS: iHPC (High Per
 iHPC is a collection of high performance servers used by students to run computationally-intense calculations.
 
 The website had two major components: the overview page and the content management system. 
-It also had a smaller set of pages for the administrators of the web site and for users to configure their preferences.
+It also had a smaller set of pages for the home, administrators of the web site and for users to configure their preferences.
+
+## Home Page
+
+![Home page](screenshots/home.JPG)
+
+The home page allows users to login, to apply for an account, and to access documentation, and to seek help.
 
 ## Overview Page
 
@@ -50,8 +56,27 @@ The CMS was used to share documentation on the software available to students an
 ![Sample documentation editing 1](screenshots/sample%20documentation%20-%20edit.JPG)
 
 ## Admin pages
-There were also some smaller sections such as admin pages for debugging (see admin*.JPG).
 
+![Admin overview page](screenshots/admin.JPG)
+
+There is a section for admininstrators pages for debugging and configuring user access. 
+Access that was configured include how many connections a specific user may have, how many connections a user from a specific department or faculty may have etc. 
+The system also had a way of managing priorities in which filters were applied.
+
+I have only shown a small sample of these features below.
+
+### Accessing logs
+
+This form uses PHP and MySQL - the logs were stored in a MySQL database.
+
+![Log search engine](screenshots/admin%20-%20search%20sys%20logs.JPG)
+
+### Managine roles
+
+![Viewing roles](screenshots/admin%20-%20manage%20roles%20-%20overview.JPG)
+![Editing roles](screenshots/admin%20-%20manage%20roles%20-%20editing%201.JPG)
+
+### Managing quotas.
 
 
 ## User preferences pages
